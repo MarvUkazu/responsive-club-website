@@ -1,0 +1,361 @@
+body {
+    margin: 0;
+    background-color: #746563;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+#nav {
+    color: #737373;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 132px;
+    z-index: 1;
+}
+
+span {
+    color: #93BF8F;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #737373;
+}
+
+#top-nav img {
+    width:49px; 
+    height: 65px;
+}
+
+
+.float-left {
+    float: left;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 20px;
+    margin: 5px;
+}
+
+#logo {
+    width: 100px;
+    margin-top: 15px;
+}
+
+.float-right {
+    float: right;
+    margin: 3px 80px;
+    font-style: italic;
+}
+
+.float-right-dwn {
+    float: right;
+    margin: 40px 60px;
+}
+
+
+
+#banner {
+    margin-bottom: 100px;
+}
+
+#banner img {
+    width: 1440px;
+    height: 519px;
+}
+
+.welcome-txt {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    color: white;
+}
+
+
+
+#main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 600px;
+    grid-template-areas: "yachts spa golfs";
+    margin: 0;
+}
+
+
+#yacht {
+    grid-area: yachts;
+    align-items: baseline;
+}
+
+#yacht img {
+    width: 480px; 
+    height:454px;
+}
+
+
+#spa {
+    grid-area: spa;
+    align-items: baseline;
+}
+
+#spa img {
+    width: 480px;
+    height: 454px;
+}
+
+
+#golf {
+    grid-area: golfs;
+    align-items: baseline;
+}
+
+#golf img {
+    width: 480px;
+    height: 454px;
+    
+}
+
+.yacht-txt {
+    position: absolute;
+    top: 100%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: white;
+}
+
+.spa-txt {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: white;
+}
+
+.golf-txt {
+    position: absolute;
+    top: 100%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: white;
+}
+
+#members {
+    background-color: #746563;
+    padding: 5px 25px;
+    color: white;
+    border-radius: 5px;
+}
+
+#booking {
+    background-color: #5C7173;
+    padding: 5px 25px;
+    color: white;
+    border-radius: 5px;
+}
+
+
+/* media queries */
+/*  */
+
+
+
+@media only screen and (max-width: 1100px) {
+
+    #top-nav img {
+        width: 3%; 
+        height: 65px;
+    }
+    
+    .float-right-dwn {
+        float: right;
+        margin: 40px 5px;
+        font-size: 12px;
+    }
+
+
+    .welcome-txt {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 30%;
+        /* font-size: 60px; */
+        color: white;
+    }
+    
+    .yacht-txt {
+        position: absolute;
+        top: 112%;
+        left: 15%;
+        transform: translate(-50%, -50%);
+        font-size: 3em;
+        color: white;
+    }
+
+    .spa-txt {
+        position: absolute;
+        top: 112%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 50px;
+        color: white;
+    }
+
+    .golf-txt {
+        position: absolute;
+        top: 112%;
+        left: 85%;
+        transform: translate(-50%, -50%);
+        font-size: 2.7em;
+        color: white;
+    }
+
+    .float-left {
+        float: left;
+        font-weight: bolder;
+        font-style: italic;
+        font-size: 1em;
+        margin: 5px;
+    }
+    
+    #logo {
+        width: 100px;
+        margin-top: 15px;
+    }
+    
+}
+
+
+
+
+
+@media only screen and (max-width: 1366px) {
+    #nav {
+        width: 100%;
+    }
+
+    #banner img{
+        width: 100%;
+    }
+
+    #main img {
+        width: 100%; 
+        height:454px;
+    }
+
+    .float-right-dwn {
+        float: right;
+        margin: 40px 40px;
+    }
+
+
+    .welcome-txt {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 2.0em;
+        color: white;
+    }
+    
+    .yacht-txt {
+        position: absolute;
+        top: 112%;
+        left: 15%;
+        transform: translate(-50%, -50%);
+        font-size: 3em;
+        color: white;
+    }
+
+    .spa-txt {
+        position: absolute;
+        top: 112%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 50px;
+        color: white;
+    }
+
+    .golf-txt {
+        position: absolute;
+        top: 112%;
+        left: 85%;
+        transform: translate(-50%, -50%);
+        font-size: 2.7em;
+        color: white;
+    }
+
+    
+}
+
+
+/*  */
+
+@media only screen and (max-width: 1600px) {
+    #nav {
+        width: 100%;
+    }
+
+    #banner img{
+        width: 100%;
+    }
+
+    #main img {
+        width: 100%; 
+        height:454px;
+    }
+
+    .float-right-dwn {
+        float: right;
+        margin: 40px 40px;
+    }
+
+
+    .welcome-txt {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 2.0em;
+        color: white;
+    }
+    
+    .yacht-txt {
+        position: absolute;
+        top: 112%;
+        left: 15%;
+        transform: translate(-50%, -50%);
+        font-size: 3em;
+        color: white;
+    }
+
+    .spa-txt {
+        position: absolute;
+        top: 112%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 50px;
+        color: white;
+    }
+
+    .golf-txt {
+        position: absolute;
+        top: 112%;
+        left: 85%;
+        transform: translate(-50%, -50%);
+        font-size: 2.7em;
+        color: white;
+    }
+
+    
+}
