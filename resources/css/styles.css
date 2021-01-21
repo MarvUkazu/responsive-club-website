@@ -376,7 +376,7 @@ a {
 
     
 }
-/* 
+ 
 @media only screen and (max-device-width: 414px) {
     #nav {
         width: 100%;
@@ -522,7 +522,7 @@ a {
         font-size: 3.7em;
         color: white;
     }
-} */
+} 
 
 @media only screen and (max-device-width: 414px) and (max-device-height: 896px) {
     #nav {
